@@ -56,7 +56,7 @@ class MenuProcessor extends \TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
     /**
      * @var array
      */
-    protected array $menuLevelConfig = [
+    protected $menuLevelConfig = [
         'doNotLinkIt' => '1',
         'wrapItemAndSub' => '{|}, |*| {|}, |*| {|}',
         'stdWrap.' => [
